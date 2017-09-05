@@ -12,6 +12,12 @@ onion service.
 We secure this connection with TLS and authenticate the connection with a 
 SHA256 certifcate fingerprint to make sure you connect the right backend.
 
+### Requirements
+
+To run this image you need docker installed.
+
+See the [official docker guide](https://docs.docker.com/engine/installation/) about how to install it.
+
 ### To build using the Dockerfile
 
 ```bash
@@ -36,7 +42,7 @@ $ docker run -it --rm madirc/weechat-docker
 
 Check out the [Weechat Quick Start Guide](https://weechat.org/files/doc/stable/weechat_quickstart.en.html#join_part_irc_channels) to learn the basics. You can also see our [own tutorial about IRC basics](https://madirc.net/2017/07/30/irc-basics.html)
 
-Use __/list__ to show channels list, __/join #channelname__ to join and __/quit__ to exit.
+Use `/list` to show channels list, `/join #channelname` to join and `/quit` to exit.
 
 ### Hints
 
