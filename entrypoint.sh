@@ -13,7 +13,7 @@ WEE_CMDS="$WEE_CMDS/server add madirc qj3m7wxqk4pfqwob.onion/6697;"
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.ssl on;"
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.ssl_fingerprint 134986c768e1d509423bbceac55c0e2ddd57aa4ddc26c2066aec2439b6f15ece;"
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.proxy tor;"
-WEE_CMDS="$WEE_CMDS/set irc.server.madirc.nicks Tor-User${RANDOM};"
+WEE_CMDS="$WEE_CMDS/set irc.server.madirc.nicks Tor-User${RANDOM},Tor-User${RANDOM},Tor-User${RANDOM},Tor-User${RANDOM};"
 
 # Remove quit and part message to improve privacy
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.msg_part \"\";"
