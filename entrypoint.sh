@@ -19,6 +19,11 @@ WEE_CMDS="$WEE_CMDS/set irc.server.madirc.nicks Tor-User${RANDOM},Tor-User${RAND
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.msg_part \"\";"
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.msg_quit \"\";"
 
+if [ "$SASL_USER" != "" ] && [ "$SASL_PASSWORD" != "" ]; then
+    WEE_CMDS="$WEE_CMDS/set irc.server.madirc.sasl_username $SASL_USER;"
+    WEE_CMDS="$WEE_CMDS/set irc.server.madirc.sasl_password $SASL_PASSWORD;"
+fi
+
 # Connect to the IRC network
 WEE_CMDS="$WEE_CMDS/connect madirc;"
 

@@ -44,6 +44,17 @@ Check out the [Weechat Quick Start Guide](https://weechat.org/files/doc/stable/w
 
 Use `/list` to show channels list, `/join #channelname` to join and `/quit` to exit.
 
+#### SASL
+
+Once you [signed up on MadIRC](https://madirc.net/2017/08/03/how-to-register-anonymously.html) you may want to use SASL to idenfity.
+
+To automatically idenfitify yourself to the services you only need to set `SASL_USER` and `SASL_PASSWORD`:
+
+```bash
+$ docker run -it --rm -e "SASL_USER=someuser" -e "SASL_PASSWORD=s3cret"  madirc/weechat-docker
+```
+
+
 ### Hints
 
 On MadIRC our main Tor-Channel is #Elite. But feel free to found your own!
