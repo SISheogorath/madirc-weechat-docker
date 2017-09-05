@@ -29,7 +29,7 @@ $ docker pull madirc/weechat-docker
 ### To run
 
 ```bash
-$ docker run -it madirc/weechat-docker
+$ docker run -it --rm madirc/weechat-docker
 ```
 
 ### Usage
@@ -42,4 +42,8 @@ Use __/list__ to show channels list, __/join #channelname__ to join and __/quit_
 
 On MadIRC our main Tor-Channel is #Elite. But feel free to found your own!
 
+
+### Additional notes
+
+Security improvement by following this guide: https://gist.github.com/noromanba/b4f7168de1e2399ab917
 
