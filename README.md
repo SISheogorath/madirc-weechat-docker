@@ -44,6 +44,14 @@ Check out the [Weechat Quick Start Guide](https://weechat.org/files/doc/stable/w
 
 Use `/list` to show channels list, `/join #channelname` to join and `/quit` to exit.
 
+#### Nickname
+
+If you want to use an different nickname than `Tor-User` + a random number, you can provide an environment variable for it called `NICKNAME`. Or if you use the SASL option it'll automatically use your SASL username.
+
+```
+docker run -it --rm -e "NICKNAME=someone" madirc/weechat-docker
+```
+
 #### SASL
 
 Once you [signed up on MadIRC](https://madirc.net/2017/08/03/how-to-register-anonymously.html) you may want to use SASL to idenfity.
