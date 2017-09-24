@@ -2,7 +2,10 @@
 
 tor >/dev/null &
 
-echo "Sleep 20 seconds to let tor setup everything needed"
+cat /logo.txt
+
+
+echo "Waiting for 20 seconds for tor connection…"
 sleep 20
 
 WEE_CMDS=""

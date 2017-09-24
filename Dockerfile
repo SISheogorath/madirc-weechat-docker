@@ -6,5 +6,6 @@ RUN adduser -D weechat
 
 USER weechat:nobody
 
+COPY logo.txt /logo.txt
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
