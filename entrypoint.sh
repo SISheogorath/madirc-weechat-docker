@@ -18,7 +18,7 @@ fi
 WEE_CMDS="$WEE_CMDS/proxy add tor socks5 127.0.0.1 9050;"
 WEE_CMDS="$WEE_CMDS/server add madirc qj3m7wxqk4pfqwob.onion/6697;"
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.ssl on;"
-WEE_CMDS="$WEE_CMDS/set irc.server.madirc.ssl_fingerprint 134986c768e1d509423bbceac55c0e2ddd57aa4ddc26c2066aec2439b6f15ece;"
+WEE_CMDS="$WEE_CMDS/set irc.server.madirc.ssl_fingerprint 4d8aa50f264fc40a67ce5154c65634da91570ea08d03fb72b5994b646165ad22;"
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.proxy tor;"
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.nicks ${NICKNAME:-Tor-User${RANDOM}},${NICKNAME:-Tor-User}${RANDOM},${NICKNAME:-Tor-User}${RANDOM},${NICKNAME:-Tor-User}${RANDOM};"
 WEE_CMDS="$WEE_CMDS/set irc.server.madirc.realname \"\";"
